@@ -9,7 +9,7 @@
         "build:scripts": "node scripts/build-scripts.js",
         "build:scss": "node scripts/build-scss.js",
         "clean": "node scripts/clean.js",
-        "start": "npm run build && node scripts/start.js",
+        "start": "servor src --reload",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
@@ -47,6 +47,7 @@
         "prettier": "2.8.6",
         "pug": "3.0.2",
         "sass": "1.60.0",
+        "servor": "^4.0.2",
         "shelljs": "0.8.5",
         "upath": "2.0.1"
     }

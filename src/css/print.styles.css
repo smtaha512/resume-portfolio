@@ -1,0 +1,24 @@
+@media print {
+    body {
+        padding: initial;
+    }
+
+    section.resume-section {
+        display: block;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        min-height: initial;
+    }
+
+    p.lead {
+        margin-bottom: 1.5rem !important;
+    }
+
+    section div h2.mb-5 {
+        margin: 0 !important;
+    }
+}
+
+@page {
+    margin: 0;
+}
